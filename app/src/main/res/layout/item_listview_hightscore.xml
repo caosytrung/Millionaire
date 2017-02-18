@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="NameHightScore: "
+        android:id="@+id/tv_hight_name"
+        android:textColor="@color/yellow"
+        android:textSize="16dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/green_light"
+        android:text="50000 USD"
+        android:id="@+id/tv_hight_score"
+        />
+
+
+</LinearLayout>

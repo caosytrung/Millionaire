@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="32dp"
+    android:background="@drawable/bg_dialog_inf"
+    >
+    <ImageView
+        android:layout_width="36dp"
+        android:id="@+id/iv_cow"
+        android:layout_height="36dp"
+        android:src="@drawable/coww"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information Game"
+        android:textColor="@color/white"
+        android:layout_marginLeft="8dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/iv_cow"
+        />
+    <TextView
+        android:textSize="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/iv_cow"
+        android:text="AI LÀ TRIỆU PHÚ \n
+        Version 1.0.0\n
+        Developer By TrungCS\n
+           \n
+        Game đượ mô phỏng theo\n
+        chương trình\n
+         &quot;  Ai là triệu phú  &quot;\n
+         Phát sóng trên VTT3\n
+
+         --End--
+         "
+        android:id="@+id/tv_inf"
+        />
+    <Button
+        android:layout_marginTop="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/tv_inf"
+        android:id="@+id/btn_close_inf"
+        android:text="Close"
+        android:layout_alignRight="@id/tv_inf"
+        android:background="@color/green_light"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="32dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="100%"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/per1"
+            android:text="0x%"
+            android:layout_marginLeft="14dp"/>
+        <TextView
+            android:id="@+id/per2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="0Y%"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:id="@+id/per3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="0Z%"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:id="@+id/per4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="0T%"
+            android:layout_marginLeft="32dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="260dp">
+
+        <LinearLayout
+            android:layout_width="8dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="256dp"
+            android:background="@color/white"></LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="26dp"
+            android:layout_height="256dp"
+            android:id="@+id/ln_persen0"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:layout_marginLeft="32dp"
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/iv_persen0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/nau"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="26dp"
+            android:layout_height="256dp"
+            android:id="@+id/ln_persen1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_marginLeft="32dp"
+            android:gravity="bottom"
+
+            >
+
+            <TextView
+                android:id="@+id/iv_persen1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/nau"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_width="26dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="32dp"
+            android:id="@+id/ln_persen2"
+            android:orientation="vertical"
+            android:gravity="bottom"
+
+            >
+            <TextView
+                android:id="@+id/iv_persen2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/nau"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="26dp"
+            android:layout_height="256dp"
+            android:id="@+id/ln_persen3"
+            android:background="@color/white"
+            android:layout_marginLeft="32dp"
+            android:gravity="bottom"
+
+            >
+            <TextView
+                android:id="@+id/iv_persen3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/nau"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="32dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="0"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Câu A"
+            android:layout_marginLeft="32dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Câu B"
+            android:layout_marginLeft="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Câu C"
+            android:layout_marginLeft="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Câu D"
+            android:layout_marginLeft="18dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_trong_suot"
+    >
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15 150,000,000"
+        android:textColor="@color/yellow"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_15"
+        android:paddingLeft="124dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="14 120,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_14"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="13 90,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_13"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12 75,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_12"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11 62,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_11"
+
+        />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 50,000,000"
+        android:textColor="@color/yellow"
+        android:paddingLeft="124dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_10"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09 35,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_9"
+
+
+        /><TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="08 27,000,000"
+    android:textColor="@color/white"
+    android:paddingLeft="124dp"
+    android:textSize="18dp"
+    android:layout_marginBottom="4dp"
+    android:id="@+id/item_question_8"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="07 18,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_7"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="06 10,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_6"
+        />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="05 5,000,000"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_5"
+
+
+        /><TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="04 3,000,000"
+    android:textColor="@color/white"
+    android:paddingLeft="124dp"
+    android:textSize="18dp"
+    android:layout_marginBottom="4dp"
+    android:id="@+id/item_question_4"
+
+
+    /><TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="03 2,000,000"
+    android:textColor="@color/white"
+    android:paddingLeft="124dp"
+    android:textSize="18dp"
+    android:layout_marginBottom="4dp"
+    android:id="@+id/item_question_3"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="02 1,000,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_2"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01 500,000"
+        android:textColor="@color/white"
+        android:paddingLeft="124dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/item_question_1"
+        />
+
+</LinearLayout>

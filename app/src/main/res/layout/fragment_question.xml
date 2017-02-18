@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ln_frag_question"
+    android:background="@color/trong_suot"
+    >
+
+    <TextView
+        android:layout_marginTop="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_o_cau_hoi"
+        android:textColor="@color/white"
+        android:text="Câu hỏi số :"
+        android:padding="16dp"
+        android:id="@+id/tv_so_thu_tu"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:background="@drawable/bg_o_cau_hoi"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="32dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:id="@+id/tv_quetion"
+            android:layout_gravity="center"
+            android:text="Tren troi cao co muon
+             ngan anh sao,
+             tren dong xanh co muon ngan cay lua"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btn_case_a"
+        android:background="@drawable/nomar_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Câu A"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/btn_case_b"
+        android:text="Câu B"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nomar_question"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/btn_case_c"
+        android:text="Câu C"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nomar_question"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/btn_case_d"
+        android:text="Câu D"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nomar_question"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>
